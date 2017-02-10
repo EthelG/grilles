@@ -1,0 +1,50 @@
+@import 'librairies/normalize.css';
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+h1{
+    font-size: 1.2em;
+    text-align: center;
+}
+p{
+    margin-bottom: 1em; /*correspond à la hauteur de ligne*/
+}
+
+figure{
+    margin: 0 0 1.5em;
+}
+img{
+    max-width: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.column {
+    box-sizing: border-box;
+    float: left;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.column-1-1 {
+    width: 100%;
+}
+.clear {
+    clear: both;
+}
+
+@media only screen and ( min-width: 35.5em) {
+    .column-1-2 {width: 50%;}
+}
+@media screen and (min-width: 64em) {
+    .column-1-3 { width: 33.333%; }
+    .wrapper { width: 62rem;}
+}
+
+@media screen and (min-width: 64em){
+}
